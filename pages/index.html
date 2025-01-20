@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brincadeira é coisa séria. <3</title>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu primeiro programa...</title>
     <style>
-        #textoOculto {
-            display: none; /* Esconde o texto inicialmente */
-        }
+      body {
+        background-color: aqua;
+        font-family: "Times New Roman", Times, serif;
+        font-size: x-large;
+        color: rgb(0, 0, 0);
+      }
+      h1 {
+        color: rgb(255, 235, 205); /* comentário */
+      }
     </style>
-</head>
-<body>
-    <a href="#" id="mostrarTexto">Clique aqui para receber sua mensagem</a>
-    <p id="textoOculto">Este é o texto oculto que aparece ao clicar no link!</p>
+  </head>
 
-    <!-- Referência ao arquivo index.js -->
-    <script src="index.js" defer></script>
-</body>
+  <body>
+    <h1><i>Olá</i>, mundo!</h1>
+    <!-- comentário -->
+    <h2>Já estou aqui.</h2>
+    <h3>Pode me notar?</h3>
+    <h4>Estou pedindo educamente.</h4>
+    <h5>Estou ficando sem paciência...</h5>
+    <h6>Parece que você não está me notando.</h6>
+    <h7>Está cego?</h7>
+    <h8>KKKKKKKKKKKKKKK</h8>
+    <p>Esse conteúdo foi adicionado com o p</p>
+    <script>
+      var nome = window.prompt("Qual é seu nome"); // Cria caixa para digitação
+      window.alert("É um grande prazer te conhecer, " + nome + "!"); // "+" serve para concatenação ou ligação
+    </script>
+  </body>
 </html>
